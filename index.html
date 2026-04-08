@@ -3,368 +3,417 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Yoga With Arun - Find What Feels Good</title>
+  <title>Yoga With Arun | Grounded Yoga in Rishikesh</title>
+  <meta
+    name="description"
+    content="Yoga With Arun is a calming one-page portfolio for private yoga sessions, group classes, breathwork, and mindful movement in Rishikesh and online."
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Cormorant+Garamond:wght@500;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
   <link rel="stylesheet" href="css/style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-  <!-- Navigation -->
-  <nav class="navbar">
-    <div class="nav-container">
-      <div class="nav-logo">
-        <h2>Yoga With Arun</h2>
-      </div>
-      <ul class="nav-menu">
-        <li><a href="#about">About</a></li>
-        <li><a href="#classes">Classes</a></li>
-        <li><a href="#gallery">Gallery</a></li>
-        <li><a href="#videos">Free Videos</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-      <div class="hamburger">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-    </div>
-  </nav>
-
-  <!-- Hero Section -->
-  <header class="hero">
-    <div class="hero-content">
-      <div class="hero-text">
-        <h1>Yoga is really the art of waking up.</h1>
-        <p>Getting back to the true you. It can be that simple. Yoga offers up a way for us to see a world that is working for you instead of against you.</p>
-        <p>Yoga reminds me that everything is connected so we must live, act, breathe with awareness. The process is the candy.</p>
-        <div class="hero-buttons">
-          <a href="#classes" class="cta-button primary">Start Your Journey</a>
-          <a href="#videos" class="cta-button secondary">Free Videos</a>
+  <div class="page-shell">
+    <nav class="navbar">
+      <div class="nav-container">
+        <a href="#top" class="nav-logo" aria-label="Yoga With Arun home">
+          <span class="nav-mark">YWA</span>
+          <span class="nav-title">
+            <strong>Yoga With Arun</strong>
+            <small>Rishikesh and Online</small>
+          </span>
+        </a>
+        <ul class="nav-menu">
+          <li><a href="#about">About</a></li>
+          <li><a href="#offerings">Offerings</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+          <a class="nav-button" href="https://wa.me/919068325755" target="_blank" rel="noreferrer">Book on WhatsApp</a>
         </div>
+        <button class="hamburger" type="button" aria-label="Open navigation" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
       </div>
-      <div class="hero-image">
-        <img src="images/main.jpg" alt="Arun in yoga pose" class="hero-img">
-      </div>
-    </div>
-  </header>
+    </nav>
 
-  <!-- Newsletter Section -->
-  <section class="newsletter">
-    <div class="container">
-      <h3>Subscribe to my Weekly Letter</h3>
-      <form class="newsletter-form">
-        <input type="email" placeholder="Enter your email" required>
-        <button type="submit">Subscribe</button>
-      </form>
-      <p class="privacy-note">We respect your email privacy.</p>
-    </div>
-  </section>
-
-  <!-- About Section -->
-  <section id="about" class="about-section">
-    <div class="container">
-      <div class="about-content">
-        <div class="about-text">
-          <h2>About Arun</h2>
-          <p>Arun Pant is a certified yoga teacher and wellness guide from Dehradun, Uttarakhand. On a mission to get the tools of yoga into homes and hearts, Arun creates accessible practices that inspire people of all ages, shapes, and sizes.</p>
-          <p>With a unique blend of traditional Hatha yoga, modern mindfulness, and breathwork, Arun's approach focuses on finding what feels good for your body and mind. His classes are designed to help you reconnect with yourself, reduce stress, and build strength—both physical and mental.</p>
-          <div class="about-stats">
-            <div class="stat">
-              <h3>500+</h3>
-              <p>Students Taught</p>
+    <main id="top">
+      <header class="hero section">
+        <div class="section-art section-art-hero" aria-hidden="true">
+          <svg viewBox="0 0 320 320" class="art-orbit" role="presentation">
+            <defs>
+              <linearGradient id="heroGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#9fd7d1" stop-opacity="0.75" />
+                <stop offset="100%" stop-color="#5cb2a4" stop-opacity="0.2" />
+              </linearGradient>
+            </defs>
+            <circle cx="160" cy="160" r="116" fill="none" stroke="url(#heroGlow)" stroke-width="1.5" stroke-dasharray="6 10" />
+            <circle cx="160" cy="160" r="82" fill="none" stroke="#dff5ef" stroke-width="1.5" />
+            <circle cx="160" cy="160" r="18" fill="#f6fffc" fill-opacity="0.85" />
+          </svg>
+        </div>
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">Personal Yoga Portfolio</p>
+            <h1>Ground your body. Clear your mind. Come back to yourself.</h1>
+            <p class="hero-lead">
+              Arun Pant teaches accessible yoga that feels steady, warm, and deeply human.
+              From private sessions to breath-led group practice, each class is built to help
+              you move with awareness and leave feeling lighter than you arrived.
+            </p>
+            <div class="hero-cta">
+              <a href="#contact" class="cta-button primary">Book a Session</a>
+              <a href="#gallery" class="cta-button secondary">View Portfolio</a>
             </div>
-            <div class="stat">
-              <h3>5+</h3>
-              <p>Years Experience</p>
-            </div>
-            <div class="stat">
-              <h3>100%</h3>
-              <p>Authentic Practice</p>
+            <div class="hero-points">
+              <div>
+                <strong>500+</strong>
+                <span>students guided</span>
+              </div>
+              <div>
+                <strong>5+ years</strong>
+                <span>of teaching experience</span>
+              </div>
+              <div>
+                <strong>Online + in person</strong>
+                <span>support for all levels</span>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="about-image">
-          <img src="images/IMG-20250730-WA0036.jpg" alt="Arun teaching yoga" class="about-img">
-        </div>
-      </div>
-    </div>
-  </section>
 
-  <!-- Image Showcase Section -->
-  <section class="image-showcase">
-    <div class="container">
-      <div class="showcase-grid">
-        <div class="showcase-item">
-          <img src="images/IMG-20250730-WA0035.jpg" alt="Yoga practice in nature">
-          <div class="showcase-overlay">
-            <h3>Connect with Nature</h3>
-            <p>Find peace in outdoor yoga sessions</p>
-          </div>
-        </div>
-        <div class="showcase-item">
-          <img src="images/IMG-20250730-WA0034.jpg" alt="Meditation practice">
-          <div class="showcase-overlay">
-            <h3>Mindful Meditation</h3>
-            <p>Discover inner calm and clarity</p>
-          </div>
-        </div>
-        <div class="showcase-item">
-          <img src="images/IMG-20250730-WA0033.jpg" alt="Group yoga class">
-          <div class="showcase-overlay">
-            <h3>Community Practice</h3>
-            <p>Join our supportive yoga community</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Classes Section -->
-  <section id="classes" class="classes-section">
-    <div class="container">
-      <h2>Find Your Practice</h2>
-      <div class="classes-grid">
-        <div class="class-card">
-          <div class="class-image">
-            <img src="images/IMG-20250730-WA0032.jpg" alt="Morning Flow class">
-          </div>
-          <div class="class-icon">
-            <i class="fas fa-sun"></i>
-          </div>
-          <h3>Morning Flow</h3>
-          <p>Start your day with energy and intention. This online class combines gentle movement with breathwork to awaken your body and mind.</p>
-          <ul>
-            <li><i class="fas fa-clock"></i> Mon–Fri, 7:00 AM – 8:00 AM</li>
-            <li><i class="fas fa-video"></i> Online via Zoom</li>
-            <li><i class="fas fa-star"></i> All levels welcome</li>
-          </ul>
-          <a href="#contact" class="class-button">Join Class</a>
-        </div>
-        
-        <div class="class-card">
-          <div class="class-image">
-            <img src="images/IMG-20250730-WA0031.jpg" alt="Evening Unwind class">
-          </div>
-          <div class="class-icon">
-            <i class="fas fa-moon"></i>
-          </div>
-          <h3>Evening Unwind</h3>
-          <p>Release tension and prepare for restful sleep. This in-person class focuses on gentle stretching and relaxation techniques.</p>
-          <ul>
-            <li><i class="fas fa-clock"></i> Mon, Wed, Fri, 6:30 PM – 7:30 PM</li>
-            <li><i class="fas fa-map-marker-alt"></i> XYZ Studio, Dehradun</li>
-            <li><i class="fas fa-star"></i> Beginner friendly</li>
-          </ul>
-          <a href="#contact" class="class-button">Join Class</a>
-        </div>
-        
-        <div class="class-card">
-          <div class="class-image">
-            <img src="images/poster.jpg" alt="Private yoga session">
-          </div>
-          <div class="class-icon">
-            <i class="fas fa-user"></i>
-          </div>
-          <h3>Private Sessions</h3>
-          <p>Personalized yoga practice tailored to your specific needs, goals, and body. Perfect for beginners or those with specific concerns.</p>
-          <ul>
-            <li><i class="fas fa-clock"></i> Flexible scheduling</li>
-            <li><i class="fas fa-home"></i> Home or studio</li>
-            <li><i class="fas fa-star"></i> Customized practice</li>
-          </ul>
-          <a href="#contact" class="class-button">Book Session</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Gallery Section -->
-  <section id="gallery" class="gallery-section">
-    <div class="container">
-      <h2>Yoga Gallery</h2>
-      <p class="section-subtitle">Capturing moments of peace, strength, and transformation</p>
-      <div class="gallery-grid">
-        <div class="gallery-item">
-          <img src="images/IMG-20250730-WA0029.jpg" alt="Yoga pose in nature">
-        </div>
-        <div class="gallery-item">
-          <img src="images/IMG-20250730-WA0028.jpg" alt="Meditation practice">
-        </div>
-        <div class="gallery-item">
-          <img src="images/IMG-20250730-WA0027.jpg" alt="Group yoga session">
-        </div>
-        <div class="gallery-item">
-          <img src="images/IMG-20250730-WA0026.jpg" alt="Sunrise yoga">
-        </div>
-        <div class="gallery-item">
-          <img src="images/IMG-20250730-WA0025.jpg" alt="Breathing exercise">
-        </div>
-        <div class="gallery-item">
-          <img src="images/IMG-20250730-WA0024.jpg" alt="Yoga in studio">
-        </div>
-        <div class="gallery-item">
-          <img src="images/IMG-20250730-WA0023.jpg" alt="Outdoor meditation">
-        </div>
-        <div class="gallery-item">
-          <img src="images/IMG-20250730-WA0022.jpg" alt="Yoga flow sequence">
-        </div>
-        <div class="gallery-item">
-          <img src="images/IMG-20250730-WA0021.jpg" alt="Peaceful yoga practice">
-        </div>
-        <div class="gallery-item">
-          <img src="images/IMG-20250730-WA0020.jpg" alt="Mindful movement">
-        </div>
-        <div class="gallery-item">
-          <img src="images/IMG-20250730-WA0018.jpg" alt="Yoga community">
-        </div>
-        <div class="gallery-item">
-          <img src="images/IMG-20250730-WA0015.jpg" alt="Serene yoga moment">
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Free Videos Section -->
-  <section id="videos" class="videos-section">
-    <div class="container">
-      <h2>Free Video Sessions</h2>
-      <p class="section-subtitle">Start your yoga journey with these free practices</p>
-      <div class="videos-grid">
-        <div class="video-card">
-          <div class="video-thumbnail">
-            <img src="images/IMG-20250730-WA0014.jpg" alt="Morning stretch video">
-            <i class="fas fa-play-circle"></i>
-          </div>
-          <h3>15-min Morning Stretch</h3>
-          <p>Perfect way to start your day with gentle movement and breath awareness.</p>
-          <span class="video-duration">15 min</span>
-        </div>
-        
-        <div class="video-card">
-          <div class="video-thumbnail">
-            <img src="images/IMG-20250730-WA0013.jpg" alt="Back pain relief video">
-            <i class="fas fa-play-circle"></i>
-          </div>
-          <h3>Yoga for Back Pain</h3>
-          <p>Relieve tension and strengthen your back with these therapeutic poses.</p>
-          <span class="video-duration">20 min</span>
-        </div>
-        
-        <div class="video-card">
-          <div class="video-thumbnail">
-            <img src="images/IMG-20250730-WA0012.jpg" alt="Breath meditation video">
-            <i class="fas fa-play-circle"></i>
-          </div>
-          <h3>Guided Breath Meditation</h3>
-          <p>Learn breathing techniques to calm your mind and reduce stress.</p>
-          <span class="video-duration">10 min</span>
-        </div>
-        
-        <div class="video-card">
-          <div class="video-thumbnail">
-            <img src="images/image2.jpg" alt="Beginner yoga video">
-            <i class="fas fa-play-circle"></i>
-          </div>
-          <h3>Yoga for Beginners</h3>
-          <p>Essential poses and breathing techniques for those new to yoga.</p>
-          <span class="video-duration">25 min</span>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Testimonials Section -->
-  <section class="testimonials-section">
-    <div class="container">
-      <h2>What Students Say</h2>
-      <div class="testimonials-grid">
-        <div class="testimonial-card">
-          <div class="testimonial-image">
-            <img src="images/IMG-20250730-WA0013.jpg" alt="Student testimonial">
-          </div>
-          <p>"Arun's classes have transformed my life. His gentle approach and deep knowledge make yoga accessible to everyone."</p>
-          <h4>Priya Sharma</h4>
-          <span>Student for 2 years</span>
-        </div>
-        <div class="testimonial-card">
-          <div class="testimonial-image">
-            <img src="images/IMG-20250730-WA0012.jpg" alt="Student testimonial">
-          </div>
-          <p>"The morning flow classes have given me energy and clarity I never thought possible. Thank you, Arun!"</p>
-          <h4>Rahul Verma</h4>
-          <span>Student for 1 year</span>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Contact Section -->
-  <section id="contact" class="contact-section">
-    <div class="container">
-      <h2>Connect With Me</h2>
-      <div class="contact-content">
-        <div class="contact-info">
-          <div class="contact-item">
-            <i class="fas fa-envelope"></i>
-            <div>
-              <h3>Email</h3>
-              <p>journeytogether6@gmail.com</p>
+          <div class="hero-visual reveal">
+            <div class="hero-image-frame">
+              <img src="images/IMG-20250730-WA0035.jpg" alt="Arun practicing tree pose in the studio" class="hero-img" />
             </div>
-          </div>
-          <div class="contact-item">
-            <i class="fab fa-whatsapp"></i>
-            <div>
-              <h3>WhatsApp</h3>
-              <p>+91-9068325755</p>
+            <div class="hero-card hero-card-top">
+              <span>Signature style</span>
+              <strong>Hatha, breathwork, meditation, mindful mobility</strong>
             </div>
-          </div>
-          <div class="contact-item">
-            <i class="fas fa-map-marker-alt"></i>
-            <div>
-              <h3>Location</h3>
-              <p>Rishikesh, Uttarakhand, India</p>
+            <div class="hero-card hero-card-bottom">
+              <span>Based in</span>
+              <strong>Rishikesh, Uttarakhand</strong>
             </div>
           </div>
         </div>
-        <div class="contact-form">
-          <h3>Send me a message</h3>
-          <form>
-            <input type="text" placeholder="Your name" required>
-            <input type="email" placeholder="Your email" required>
-            <textarea placeholder="Your message" rows="5" required></textarea>
-            <button type="submit" class="submit-button">Send Message</button>
-          </form>
-        </div>
-      </div>
-    </div>
-  </section>
+      </header>
 
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="container">
-      <div class="footer-content">
-        <div class="footer-quote">
-          <p>"Yoga is not about touching your toes, it's about what you learn on the way down." — Jigar Gor</p>
+      <section class="trust-strip section">
+        <div class="container trust-grid reveal">
+          <p>Private sessions</p>
+          <p>Group classes</p>
+          <p>Breathwork</p>
+          <p>Beginner-friendly teaching</p>
+          <p>Therapeutic pacing</p>
+        </div>
+      </section>
+
+      <section id="about" class="about-section section">
+        <div class="section-art section-art-about" aria-hidden="true">
+          <svg viewBox="0 0 240 240" class="art-lotus" role="presentation">
+            <path d="M120 144c-17-21-18-44-6-68 20 12 31 35 28 60-1 4-4 7-8 8-5 1-10 1-14 0Z" fill="#a7ddd3" />
+            <path d="M120 144c17-21 18-44 6-68-20 12-31 35-28 60 1 4 4 7 8 8 5 1 10 1 14 0Z" fill="#7ec7ba" />
+            <path d="M120 153c-28-15-43-37-47-67 25 2 47 18 57 43 2 5 1 10-2 14-2 4-5 7-8 10Z" fill="#d9f1eb" />
+            <path d="M120 153c28-15 43-37 47-67-25 2-47 18-57 43-2 5-1 10 2 14 2 4 5 7 8 10Z" fill="#c0e7df" />
+            <path d="M120 164c-15 0-27 12-27 27h54c0-15-12-27-27-27Z" fill="#2f8f83" fill-opacity="0.9" />
+          </svg>
+        </div>
+        <div class="container about-grid">
+          <div class="about-visual reveal">
+            <div class="portrait-frame">
+              <img src="images/IMG-20250730-WA0036.jpg" alt="Arun balancing in crow pose using yoga blocks" class="portrait-img" />
+            </div>
+          </div>
+          <div class="about-copy reveal">
+            <p class="eyebrow">About Arun</p>
+            <h2>A grounded teacher with a calm, practical approach to yoga.</h2>
+            <p>
+              Arun Pant is a yoga teacher and wellness guide from Uttarakhand who focuses on
+              simple, sustainable practice. His classes draw from Hatha yoga, breath awareness,
+              stillness, and mindful strength so students can feel both supported and challenged.
+            </p>
+            <p>
+              Whether you are completely new to yoga or returning after a long break, Arun teaches
+              in a way that helps you build trust in your body, breathe more fully, and move with
+              intention instead of pressure.
+            </p>
+            <div class="about-tags">
+              <span>Hatha yoga</span>
+              <span>Meditation</span>
+              <span>Breathwork</span>
+              <span>Mobility</span>
+              <span>Stress relief</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="offerings" class="offerings-section section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Offerings</p>
+            <h2>Ways we can practice together.</h2>
+            <p>
+              Clear, supportive formats for beginners, regular practitioners, and people looking
+              for more personalized guidance.
+            </p>
+          </div>
+          <div class="offerings-grid">
+            <article class="offering-card reveal">
+              <div class="offering-media">
+                <img src="images/IMG-20250730-WA0031.jpg" alt="Arun leading a gentle evening yoga practice" />
+              </div>
+              <div class="offering-body">
+                <span class="icon-pill"><i class="fas fa-user"></i> 1:1 guidance</span>
+                <h3>Private Yoga Sessions</h3>
+                <p>Tailored sessions for posture, mobility, recovery, confidence, or a slower return to movement.</p>
+                <ul>
+                  <li>Customized sequencing</li>
+                  <li>Online or in person</li>
+                  <li>Ideal for beginners and focused goals</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="offering-card reveal">
+              <div class="offering-media">
+                <img src="images/IMG-20250730-WA0032.jpg" alt="Arun guiding a morning yoga flow" />
+              </div>
+              <div class="offering-body">
+                <span class="icon-pill"><i class="fas fa-sun"></i> Group energy</span>
+                <h3>Morning and Evening Classes</h3>
+                <p>Steady group practice built around breath, simple alignment, and movement that leaves you refreshed.</p>
+                <ul>
+                  <li>Accessible for mixed levels</li>
+                  <li>Strong breath-led pacing</li>
+                  <li>Consistent rhythm and accountability</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="offering-card reveal">
+              <div class="offering-media">
+                <img src="images/IMG-20250730-WA0024.jpg" alt="Meditative yoga practice in the studio" />
+              </div>
+              <div class="offering-body">
+                <span class="icon-pill"><i class="fas fa-wind"></i> Nervous system care</span>
+                <h3>Breathwork and Mindful Reset</h3>
+                <p>Shorter guided practices that help reduce stress, regulate energy, and build daily calm.</p>
+                <ul>
+                  <li>Breath awareness and meditation</li>
+                  <li>Useful for busy schedules</li>
+                  <li>Gentle and restorative approach</li>
+                </ul>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="experience-section section">
+        <div class="container experience-grid">
+          <div class="experience-copy reveal">
+            <p class="eyebrow">What Practice Feels Like</p>
+            <h2>A calm experience designed around steadiness, not performance.</h2>
+            <p>
+              The goal is not to force advanced shapes. It is to build a relationship with your
+              breath, your posture, and your attention. Each session balances effort with ease so
+              the practice feels sustainable and meaningful.
+            </p>
+            <div class="experience-list">
+              <div>
+                <strong>1. Arrive and settle</strong>
+                <p>Grounding breathwork and simple mobility to release stiffness.</p>
+              </div>
+              <div>
+                <strong>2. Move with awareness</strong>
+                <p>Intentional sequences that support strength, flexibility, and focus.</p>
+              </div>
+              <div>
+                <strong>3. Leave lighter</strong>
+                <p>Closing rest and breath practices that bring clarity back into the day.</p>
+              </div>
+            </div>
+          </div>
+          <div class="experience-panel reveal">
+            <div class="experience-highlight">
+              <p class="quote-mark">"</p>
+              <p>
+                Yoga here is not about chasing shapes. It is about creating space, feeling steady,
+                and returning to yourself with kindness.
+              </p>
+            </div>
+            <div class="mini-gallery">
+              <img src="images/IMG-20250730-WA0033.jpg" alt="Arun practicing a seated spinal twist" />
+              <img src="images/IMG-20250730-WA0029.jpg" alt="Arun in a compact forward bend pose" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="gallery" class="gallery-section section">
+        <div class="section-art section-art-gallery" aria-hidden="true">
+          <svg viewBox="0 0 300 120" class="art-wave" role="presentation">
+            <path d="M0 68C31 41 63 41 94 68s63 27 94 0 63-27 94 0 12 0 18-6" fill="none" stroke="#8ccfd1" stroke-width="4" stroke-linecap="round" />
+            <path d="M0 88c31-21 63-21 94 0s63 21 94 0 63-21 94 0 12 0 18-5" fill="none" stroke="#bfe7de" stroke-width="3" stroke-linecap="round" />
+          </svg>
+        </div>
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Gallery</p>
+            <h2>Real moments from practice.</h2>
+            <p>
+              A visual portfolio of studio sessions, meditative stillness, balance work, and
+              grounded movement.
+            </p>
+          </div>
+          <div class="gallery-mosaic">
+            <button class="gallery-item gallery-item-lg reveal" type="button">
+              <img src="images/IMG-20250730-WA0035.jpg" alt="Tree pose with lifted arms in the studio" />
+            </button>
+            <button class="gallery-item reveal" type="button">
+              <img src="images/IMG-20250730-WA0036.jpg" alt="Crow pose balance using yoga blocks" />
+            </button>
+            <button class="gallery-item reveal" type="button">
+              <img src="images/IMG-20250730-WA0026.jpg" alt="Arun in a seated yoga stretch on the mat" />
+            </button>
+            <button class="gallery-item reveal" type="button">
+              <img src="images/IMG-20250730-WA0023.jpg" alt="Cross-legged meditative pose in studio light" />
+            </button>
+            <button class="gallery-item gallery-item-wide reveal" type="button">
+              <img src="images/IMG-20250730-WA0022.jpg" alt="Deep fold pose on the mat in the studio" />
+            </button>
+            <button class="gallery-item reveal" type="button">
+              <img src="images/IMG-20250730-WA0021.jpg" alt="Calm yoga pose focused on breath and stillness" />
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="testimonial-section section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Student Voice</p>
+            <h2>Why people stay with the practice.</h2>
+          </div>
+          <div class="testimonial-grid">
+            <article class="testimonial-card reveal">
+              <p>
+                "Arun teaches with patience and clarity. I never feel rushed, and every class leaves
+                me calmer and more connected to my body."
+              </p>
+              <h3>Priya Sharma</h3>
+              <span>Private student</span>
+            </article>
+            <article class="testimonial-card reveal">
+              <p>
+                "The sessions are simple in the best way. Strong breath cues, thoughtful movement,
+                and a very grounding energy from start to finish."
+              </p>
+              <h3>Rahul Verma</h3>
+              <span>Group class student</span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta-band section">
+        <div class="container cta-band-grid reveal">
+          <div>
+            <p class="eyebrow">Ready to begin</p>
+            <h2>Let's create a practice that fits your life.</h2>
+          </div>
+          <div class="cta-symbol" aria-hidden="true">
+            <svg viewBox="0 0 220 220" class="art-mandala" role="presentation">
+              <circle cx="110" cy="110" r="78" fill="none" stroke="rgba(255,255,255,0.28)" stroke-width="1.5" />
+              <circle cx="110" cy="110" r="52" fill="none" stroke="rgba(255,255,255,0.38)" stroke-width="1.5" stroke-dasharray="4 8" />
+              <path d="M110 62c9 17 21 29 38 38-17 9-29 21-38 38-9-17-21-29-38-38 17-9 29-21 38-38Z" fill="rgba(255,255,255,0.2)" />
+              <circle cx="110" cy="110" r="10" fill="rgba(255,255,255,0.65)" />
+            </svg>
+          </div>
+          <div class="cta-band-actions">
+            <a class="cta-button primary" href="https://wa.me/919068325755" target="_blank" rel="noreferrer">Message on WhatsApp</a>
+            <a class="cta-button secondary" href="mailto:journeytogether6@gmail.com">Send an Email</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact-section section">
+        <div class="container contact-grid">
+          <div class="contact-copy reveal">
+            <p class="eyebrow">Contact</p>
+            <h2>Book a class, ask a question, or plan a private session.</h2>
+            <p>
+              Reach out directly if you want to begin with a trial session, discuss timing, or find
+              the best format for your needs.
+            </p>
+            <div class="contact-list">
+              <a href="mailto:journeytogether6@gmail.com">
+                <i class="fas fa-envelope"></i>
+                <span>journeytogether6@gmail.com</span>
+              </a>
+              <a href="https://wa.me/919068325755" target="_blank" rel="noreferrer">
+                <i class="fab fa-whatsapp"></i>
+                <span>+91 90683 25755</span>
+              </a>
+              <a href="https://www.instagram.com/yoga_with_yogacharya" target="_blank" rel="noreferrer">
+                <i class="fab fa-instagram"></i>
+                <span>@yoga_with_yogacharya</span>
+              </a>
+              <div class="contact-static">
+                <i class="fas fa-location-dot"></i>
+                <span>Rishikesh, Uttarakhand, India</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-card reveal">
+            <h3>Send a quick message</h3>
+            <form class="contact-form">
+              <input type="text" name="name" placeholder="Your name" required />
+              <input type="email" name="email" placeholder="Your email" required />
+              <textarea name="message" rows="5" placeholder="Tell Arun what kind of practice you are looking for." required></textarea>
+              <button type="submit" class="submit-button">Send Inquiry</button>
+              <p class="form-note">This form opens your email app with the message prepared for you.</p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div>
+          <p class="footer-brand">Yoga With Arun</p>
+          <p class="footer-copy">Mindful movement, breath-led practice, and grounded guidance.</p>
         </div>
         <div class="footer-links">
           <a href="#about">About</a>
-          <a href="#classes">Classes</a>
+          <a href="#offerings">Offerings</a>
           <a href="#gallery">Gallery</a>
-          <a href="#videos">Videos</a>
           <a href="#contact">Contact</a>
         </div>
-        <div class="footer-social">
-          <a href="https://www.instagram.com/yoga_with_yogacharya" target="_blank"><i class="fab fa-instagram" ></i></a>
-          <a href="#"><i class="fab fa-youtube"></i></a>
-          <a href="#"><i class="fab fa-facebook"></i></a>
+        <div class="footer-meta">
+          <p>&copy; 2026 Yoga With Arun</p>
+          <p>Sarvam Yogen Sadhyate</p>
         </div>
       </div>
-      <div class="footer-bottom">
-        <p>&copy; 2025 Yoga With Arun | All rights reserved</p>
-        <em>सर्वं योगेन साध्यते</em>
-      </div>
-    </div>
-  </footer>
+    </footer>
+  </div>
+
+  <div class="lightbox" aria-hidden="true">
+    <button class="lightbox-close" type="button" aria-label="Close image">&times;</button>
+    <img class="lightbox-image" src="" alt="" />
+    <p class="lightbox-caption"></p>
+  </div>
 
   <script src="js/script.js"></script>
 </body>
