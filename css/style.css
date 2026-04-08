@@ -1104,6 +1104,15 @@ p {
     order: 3;
     justify-self: start;
   }
+
+  .experience-section {
+    padding-top: 28px;
+    margin-top: -10px;
+  }
+
+  .gallery-section {
+    padding-top: 52px;
+  }
 }
 
 @media (max-width: 640px) {
@@ -1188,8 +1197,50 @@ p {
     grid-template-columns: 1fr;
   }
 
+  .hero-points {
+    gap: 10px;
+    margin-top: 22px;
+  }
+
+  .hero-lead {
+    margin-top: 16px;
+  }
+
   .section-heading {
-    margin-bottom: 26px;
+    margin-bottom: 20px;
+  }
+
+  .section-heading p:last-child {
+    margin-top: 10px;
+  }
+
+  .about-section {
+    padding-bottom: 26px;
+  }
+
+  .experience-section {
+    padding-top: 12px;
+    padding-bottom: 42px;
+  }
+
+  .experience-copy .eyebrow,
+  .experience-copy h2 {
+    display: none;
+  }
+
+  .experience-list {
+    gap: 14px;
+    margin-top: 0;
+  }
+
+  .offerings-grid,
+  .testimonial-grid,
+  .gallery-mosaic {
+    gap: 14px;
+  }
+
+  .offering-media img {
+    aspect-ratio: 16 / 10;
   }
 
   .contact-list a,
@@ -1245,6 +1296,16 @@ p {
   .cta-symbol {
     width: 92px;
   }
+
+  .mobile-optional,
+  .mobile-optional-block,
+  .mobile-gallery-extra {
+    display: none !important;
+  }
+
+  .mobile-optional-inline {
+    display: none !important;
+  }
 }
 
 @media (max-width: 420px) {
@@ -1288,9 +1349,29 @@ p {
     height: 300px;
   }
 
+  .hero-points {
+    grid-template-columns: 1fr;
+  }
+
   .trust-grid p {
     padding: 12px 14px;
     font-size: 0.92rem;
+  }
+
+  .trust-grid {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .offerings-section .section-heading p:last-child,
+  .gallery-section .section-heading p:last-child,
+  .testimonial-section .section-heading p:last-child,
+  .form-note {
+    display: none;
+  }
+
+  .gallery-section {
+    padding-top: 40px;
   }
 
   .cta-symbol {
